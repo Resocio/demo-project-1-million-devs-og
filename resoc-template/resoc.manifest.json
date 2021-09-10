@@ -1,0 +1,24 @@
+{
+  "partials": {
+    "content": "./content.html.mustache",
+    "styles": "./styles.css.mustache"
+  },
+  "parameters": [
+    {
+      "label": "Main image",
+      "name": "mainImage",
+      "type": "imageUrl",
+      "demoValue": "rocket.png"
+    },
+    {
+      "name": "logo",
+      "type": "imageUrl",
+      "demoValue": "netlify-logo.png"
+    },
+    {
+      "name": "backgroundColor",
+      "type": "color",
+      "demoValue": "#00dc9e"
+    }
+  ]
+}
